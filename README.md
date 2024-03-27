@@ -1,6 +1,6 @@
 # Caching Simulator
 A simple cache simulator which supports three caching algorithms.
-After each lookup, the program will print whether the item that was accessed is a HIT or MISS. A summary of the total number of compulsary misses and capacity misses is printed at the end of the program.
+After each lookup, the program will print whether the item that was accessed is a HIT or MISS. A summary of the total number of compulsary misses and capacity misses is printed at the end of the program$ `ctrl D`.
 
 ## Design Choices
 - The three caching algorithms/policies are FIFO (First In First Out), LRU (Least Recently Used), and Clock/Second-Chance
@@ -22,6 +22,11 @@ Build/clean this program with the following commands:
 Run this program with the following command:
 
     $ ./cacher [-N size] <policy>;
+    $
+    $ <policy> OPTIONS:
+    $ -F   First-In First-Out (default policy if none provided)
+    $ -L   Least Recently Used
+    $ -C   Clock
 
 ## Files included
     cacher.c    : source file for the cache
