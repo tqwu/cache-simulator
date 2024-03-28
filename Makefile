@@ -13,7 +13,7 @@ CFLAGS   = -Wall -Wpedantic -Werror -Wextra -DDEBUG
 all: $(EXECBIN)
 
 $(EXECBIN): $(OBJECTS)
-	$(CC) -o $@ $^ -pthread
+	$(CC) -o $@ $^
 
 %.o : %.c %.h
 	$(CC) $(CFLAGS) -c $<
