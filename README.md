@@ -1,5 +1,5 @@
 # Caching Simulator
-A simple cache simulator which supports single character items and three caching algorithms.\
+A simple command line cache simulator which supports single character items and three caching algorithms.\
 After each lookup, the program will print whether the accessed item is a HIT or MISS. A summary of the total number of compulsary misses and capacity misses is printed at the end of the program.
 
 ## Design Choices
