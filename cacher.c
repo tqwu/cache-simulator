@@ -5,7 +5,7 @@
 
 #include "ll.h"
 
-void print_usage() {
+void print_usage(void) {
     fprintf(stderr, "USAGE: ./cacher [-N size] <policy>\n\n");
     fprintf(stderr, "<policy> OPTIONS:\n");
     fprintf(stderr, "-F   First-In First-Out (default policy if none provided)\n");
@@ -109,3 +109,4 @@ int main(int argc, char **argv) {
 
     return 0;
 }
+
