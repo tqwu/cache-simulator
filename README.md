@@ -19,7 +19,7 @@ Build/clean this program with the following commands:
     $ make clean
 
 ## Running
-Run this program with the following command:
+Run this program with the following command and corresponding policy option:
 
     $ ./cacher [-N size] <policy>;
 
