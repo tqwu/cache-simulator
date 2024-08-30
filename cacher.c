@@ -105,8 +105,9 @@ int main(int argc, char **argv) {
     ll_delete(&ll);
     free(bit_array);
 
-    printf("%d %d\n", compulsory_misses, capacity_misses);
-
-    return 0;
+    printf("Compulsory misses: %d\n", compulsory_misses);
+    printf("Capacity misses: %d\n", capacity_misses);
+    
+	return 0;
 }
 
